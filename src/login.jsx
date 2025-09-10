@@ -13,7 +13,7 @@ export default function Login() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Ejemplo: usuario y contraseña fijos
+
     if (form.username === "admin" && form.password === "1234") {
       setIsLoggedIn(true);
       setError("");
